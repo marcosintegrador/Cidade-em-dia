@@ -1,0 +1,15 @@
+<aside class="menu-lateral">
+  <h2>CIDADE EM DIA</h2>
+
+  <nav aria-label="Menu principal">
+    @for (item of itens(); track item.rota) {
+      <a
+        mat-flat-button
+        [routerLink]="item.rota"
+        routerLinkActive="ativo"
+        (click)="clicar(item)">
+        {{ item.rotulo }}
+      </a>
+    }
+  </nav>
+</aside>

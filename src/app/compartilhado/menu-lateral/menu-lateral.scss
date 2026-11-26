@@ -1,0 +1,33 @@
+.menu-lateral {
+  width: 180px;
+  min-height: 100vh;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  background-color: #293541;
+  color: #ffffff;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1683e8;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+a[mat-flat-button] {
+  justify-content: flex-start;
+  border-radius: 2px;
+  text-align: left;
+  white-space: normal;
+
+  &.ativo {
+    outline: 2px solid #ffffff;
+    outline-offset: -2px;
+  }
+}

@@ -1,0 +1,16 @@
+h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.tabela {
+  width: 100%;
+}
